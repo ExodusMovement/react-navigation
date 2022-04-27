@@ -1,7 +1,7 @@
 {
-  "name": "@react-navigation/bottom-tabs",
+  "name": "@exodus/react-navigation-bottom-tabs",
   "description": "Bottom tab navigator following iOS design guidelines",
-  "version": "6.1.0",
+  "version": "6.1.0-exodus.0",
   "keywords": [
     "react-native-component",
     "react-component",
@@ -14,7 +14,7 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/react-navigation/react-navigation.git",
+    "url": "https://github.com/ExodusMovement/react-navigation.git",
     "directory": "packages/bottom-tabs"
   },
   "main": "lib/commonjs/index.js",
