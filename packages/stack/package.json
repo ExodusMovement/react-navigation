@@ -1,7 +1,7 @@
 {
-  "name": "@react-navigation/stack",
+  "name": "@exodus/react-navigation-stack",
   "description": "Stack navigator component for iOS and Android with animated transitions and gestures",
-  "version": "6.1.1",
+  "version": "6.1.1-exodus.0",
   "keywords": [
     "react-native-component",
     "react-component",
@@ -14,11 +14,11 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/react-navigation/react-navigation.git",
+    "url": "https://github.com/ExodusMovement/react-navigation.git",
     "directory": "packages/stack"
   },
   "bugs": {
-    "url": "https://github.com/react-navigation/react-navigation/issues"
+    "url": "https://github.com/ExodusMovement/react-navigation/issues"
   },
   "homepage": "https://reactnavigation.org/docs/stack-navigator/",
   "main": "lib/commonjs/index.js",
