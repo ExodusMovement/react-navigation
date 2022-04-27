@@ -1,5 +1,4 @@
 import { Link, Route, useTheme } from '@react-navigation/native';
-import Color from 'color';
 import React from 'react';
 import {
   GestureResponderEvent,
@@ -193,7 +192,7 @@ export default function BottomTabBarItem({
 
   const inactiveTintColor =
     customInactiveTintColor === undefined
-      ? Color(colors.text).mix(Color(colors.card), 0.5).hex()
+      ? colors.primary
       : customInactiveTintColor;
 
   const renderLabel = ({ focused }: { focused: boolean }) => {
