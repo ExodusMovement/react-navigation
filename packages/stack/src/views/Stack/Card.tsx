@@ -1,4 +1,3 @@
-import Color from 'color';
 import * as React from 'react';
 import {
   Animated,
@@ -484,10 +483,7 @@ export default class Card extends React.Component<Props> {
       : undefined;
 
     const { backgroundColor } = StyleSheet.flatten(contentStyle || {});
-    const isTransparent =
-      typeof backgroundColor === 'string'
-        ? Color(backgroundColor).alpha() === 0
-        : false;
+    const isTransparent = false;
 
     return (
       <CardAnimationContext.Provider value={interpolationProps}>

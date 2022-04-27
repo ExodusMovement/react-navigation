@@ -8,7 +8,6 @@ import type {
   Route,
   StackNavigationState,
 } from '@react-navigation/native';
-import Color from 'color';
 import * as React from 'react';
 import {
   Animated,
@@ -602,8 +601,8 @@ export default class CardStack extends React.Component<Props, State> {
             const {
               headerShown = true,
               headerTransparent,
-              headerStyle,
-              headerTintColor,
+              // headerStyle,
+              // headerTintColor,
             } = scene.descriptor.options;
 
             const safeAreaInsetTop = insets.top;
@@ -617,21 +616,22 @@ export default class CardStack extends React.Component<Props, State> {
             let headerDarkContent: boolean | undefined;
 
             if (headerShown) {
-              if (typeof headerTintColor === 'string') {
-                headerDarkContent = Color(headerTintColor).isDark();
-              } else {
-                const flattenedHeaderStyle = StyleSheet.flatten(headerStyle);
+              // if (typeof headerTintColor === 'string') {
+              //   headerDarkContent = Color(headerTintColor).isDark();
+              // } else {
+              //   const flattenedHeaderStyle = StyleSheet.flatten(headerStyle);
 
-                if (
-                  flattenedHeaderStyle &&
-                  'backgroundColor' in flattenedHeaderStyle &&
-                  typeof flattenedHeaderStyle.backgroundColor === 'string'
-                ) {
-                  headerDarkContent = !Color(
-                    flattenedHeaderStyle.backgroundColor
-                  ).isDark();
-                }
-              }
+              //   if (
+              //     flattenedHeaderStyle &&
+              //     'backgroundColor' in flattenedHeaderStyle &&
+              //     typeof flattenedHeaderStyle.backgroundColor === 'string'
+              //   ) {
+              //     headerDarkContent = !Color(
+              //       flattenedHeaderStyle.backgroundColor
+              //     ).isDark();
+              //   }
+              // }
+              headerDarkContent = true;
             }
 
             // Start from current card and count backwards the number of cards with same interpolation
