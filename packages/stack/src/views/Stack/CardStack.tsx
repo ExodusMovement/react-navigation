@@ -8,7 +8,6 @@ import type {
   Route,
   StackNavigationState,
 } from '@react-navigation/native';
-import Color from 'color';
 import * as React from 'react';
 import {
   Animated,
@@ -621,9 +620,9 @@ export default class CardStack extends React.Component<Props, State> {
 
             if (headerShown) {
               if (typeof headerTintColor === 'string') {
-                headerDarkContent = Color(headerTintColor).isDark();
+                headerDarkContent = true; //Color(headerTintColor).isDark();
               } else if (typeof headerBackgroundColor === 'string') {
-                headerDarkContent = !Color(headerBackgroundColor).isDark();
+                headerDarkContent = true; //!Color(headerBackgroundColor).isDark();
               }
             }
 
