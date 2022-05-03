@@ -29,7 +29,8 @@
   "files": [
     "src",
     "lib",
-    "!**/__tests__"
+    "!**/__tests__",
+    "!**/*.map"
   ],
   "sideEffects": false,
   "publishConfig": {
