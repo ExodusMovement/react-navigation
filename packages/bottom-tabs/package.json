@@ -1,7 +1,7 @@
 {
   "name": "@exodus/react-navigation-bottom-tabs",
   "description": "Bottom tab navigator following iOS design guidelines",
-  "version": "6.1.0-exodus.0",
+  "version": "6.1.0-exodus.1",
   "keywords": [
     "react-native-component",
     "react-component",
