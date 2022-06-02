@@ -1,7 +1,7 @@
 {
   "name": "@exodus/react-navigation-stack",
   "description": "Stack navigator component for iOS and Android with animated transitions and gestures",
-  "version": "6.2.1",
+  "version": "6.2.1-exodus.0",
   "keywords": [
     "react-native-component",
     "react-component",
