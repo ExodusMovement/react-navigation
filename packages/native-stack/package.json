@@ -1,7 +1,7 @@
 {
-  "name": "@react-navigation/native-stack",
+  "name": "@exodus/react-navigation-native-stack",
   "description": "Native stack navigator using react-native-screens",
-  "version": "6.6.2",
+  "version": "6.6.2-exodus.0",
   "keywords": [
     "react-native-component",
     "react-component",
@@ -15,11 +15,11 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/react-navigation/react-navigation.git",
+    "url": "https://github.com/ExodusMovement/react-navigation.git",
     "directory": "packages/native-stack"
   },
   "bugs": {
-    "url": "https://github.com/software-mansion/react-native-screens/issues"
+    "url": "https://github.com/ExodusMovement/react-navigation/issues"
   },
   "homepage": "https://github.com/software-mansion/react-native-screens#readme",
   "main": "lib/commonjs/index.js",
@@ -28,9 +28,9 @@
   "module": "lib/module/index.js",
   "types": "lib/typescript/src/index.d.ts",
   "files": [
-    "src",
     "lib",
-    "!**/__tests__"
+    "!**/__tests__",
+    "!**/*.map"
   ],
   "sideEffects": false,
   "publishConfig": {
